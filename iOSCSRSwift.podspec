@@ -1,19 +1,19 @@
 Pod::Spec.new do |s|
 
   s.name         = "iOSCSRSwift"
-  s.version      = "0.0.992"
+  s.version      = "0.1.0"
   s.summary      = "Generate a certificate signing request (CSR) in iOS using Swift"
 
   s.description  = <<-DESC 
   	CertificateSigningRequest lets you enables you to generate a CSR directly on an iOS device
                    DESC
 
-  s.homepage     = "https://github.com/cbaker6/iOSCSRSwift"
+  s.homepage     = "https://github.com/konrri/CertificateSigningRequestSwift"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Corey Baker" => "coreyearleon@icloud.com" }
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/cbaker6/iOSCSRSwift.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/konrri/CertificateSigningRequestSwift.git", :tag => "#{s.version}" }
 
 
   s.source_files  = "iOS-csr-swift", "iOSCSRSwift/**/*.{h,m,swift}", "CommonCrypto/**/*.{c,h}"
